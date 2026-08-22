@@ -64,5 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hippo Harvest is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Hippo Harvest is a controlled-environment agriculture company in Pescadero, California that grows USDA-certified-organic packaged leafy greens in modular greenhouses run by custom autonomous mobile robots and machine learning. It sells salad greens into grocery retail, not software.
+
+Profiled 2026-08-22: **no public API, developer portal, SDK or machine-readable contract** was found on any host the company controls. See `x-coverage` in `apis.yml` and `well-known/hippo-harvest-well-known.yml` for the probed URLs and their statuses.
+
+- https://www.hippoharvest.com/
+- https://github.com/Hippo-Harvest

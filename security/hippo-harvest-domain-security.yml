@@ -1,0 +1,16 @@
+generated: '2026-08-22'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.hippoharvest.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 18 13:11:58 2026 GMT
+  hsts: true
+  hsts_max_age: 15552000
+domains:
+- domain: hippoharvest.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

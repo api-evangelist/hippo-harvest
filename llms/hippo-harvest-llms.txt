@@ -1,0 +1,49 @@
+# Hippo Harvest
+
+> Hippo Harvest is a controlled-environment agriculture company in Pescadero, California that
+> grows USDA-certified-organic packaged leafy greens in modular greenhouses operated by custom
+> autonomous mobile robots and machine learning. It sells salad greens into grocery retail. It
+> does not sell software and publishes no API.
+
+## API status
+
+Hippo Harvest publishes **no public API, developer portal, SDK, webhook surface, or
+machine-readable contract**. This was verified on 2026-08-22 against every host the company
+controls:
+
+- `https://www.hippoharvest.com/openapi.json`, `/openapi.yaml`, `/swagger.json`,
+  `/v1/openapi.json`, `/api-docs`, `/docs`, `/redoc`, `/graphql`, `/api`, `/mcp` — all 404.
+- `https://www.hippoharvest.com/llms.txt` — 404.
+- Every `/.well-known/` path (`security.txt`, `openid-configuration`,
+  `oauth-authorization-server`, `api-catalog`, `ai-plugin.json`, `agent-card.json`,
+  `agent.json`) — all 404. See `well-known/hippo-harvest-well-known.yml`.
+- No `api.`, `app.`, `developer.`, `docs.`, `portal.` or `status.` subdomain resolves in DNS.
+- No first-party client library exists on npm, PyPI, RubyGems or crates.io.
+- The company's GitHub organization (`Hippo-Harvest`, 2 public repos) contains a fork of the
+  upstream `RobotWebTools/rosbridge_suite` and a frontend-engineer interview case study —
+  neither is a published contract.
+
+The robotics, computer-vision and growing-control software is internal operating
+infrastructure for growing lettuce, not a product sold to customers.
+
+## Company
+
+- [Home](https://www.hippoharvest.com/): company overview and brand.
+- [Our Story](https://www.hippoharvest.com/our-story): founding, robotic greenhouse approach,
+  resource-efficiency claims.
+- [Products](https://www.hippoharvest.com/products): organic spring mix, spinach, 50/50 blend,
+  butter lettuce.
+- [Where to Buy](https://www.hippoharvest.com/where-to-buy): retail availability.
+- [Contact](https://www.hippoharvest.com/contact): the only inbound channel; there is no
+  developer support channel.
+- [GitHub organization](https://github.com/Hippo-Harvest): 2 public repos, no API contract.
+
+## Legal
+
+- [Terms of Service](https://www.hippoharvest.com/terms-of-service)
+- [Privacy Policy](https://www.hippoharvest.com/privacy-policy)
+
+## Optional
+
+- Funding: $21M Series B led by Standard Investments (Feb 2024); $30M Series C led by Cox Farms
+  (Jul 2026). A 30-acre Hollister, California facility is in permitting.

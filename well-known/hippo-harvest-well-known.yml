@@ -1,0 +1,37 @@
+generated: '2026-08-22'
+method: probed
+source: https://www.hippoharvest.com/
+note: >-
+  Every /.well-known/ path was probed on the only host Hippo Harvest controls
+  (www.hippoharvest.com, a Squarespace-hosted marketing site). Nothing is served. The
+  /.well-known/security.txt path returns a Squarespace platform JSON stub
+  ({"message":"security.txt not found"}) rather than an RFC 9116 document, and every other
+  path returns the site's 404 HTML page under a 404 status. NO WellKnown or SecurityTxt
+  pointer is wired in apis.yml: this file records a verified ABSENCE, not a presence.
+  No api.*, app.*, developer.*, docs.*, portal.* or status.* subdomain resolves in DNS,
+  so there is no second host to probe.
+hosts:
+- host: www.hippoharvest.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+    note: 'Squarespace platform stub, application/json: {"message":"security.txt not found"}'
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

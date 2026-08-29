@@ -14,6 +14,17 @@ description: >-
   developer portal, SDK or machine-readable contract of any kind was found on any host the
   company controls.
 url: https://raw.githubusercontent.com/api-evangelist/hippo-harvest/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://images.squarespace-cdn.com/content/635abb7ce3040e40049edb8f/2f8cd1c2-69e2-47d9-961d-7f8df305f83e/Hippo-Logo.png?content-type=image%2Fpng
 x-type: company
 x-source: harvest:secondary-market

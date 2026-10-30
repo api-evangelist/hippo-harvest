@@ -64,9 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hippo Harvest is a controlled-environment agriculture company in Pescadero, California that grows USDA-certified-organic packaged leafy greens in modular greenhouses run by custom autonomous mobile robots and machine learning. It sells salad greens into grocery retail, not software.
+Hippo Harvest is a controlled-environment agriculture company based in Pescadero, California, founded in 2019, that grows USDA-certified-organic leafy greens in modular greenhouses run by custom autonomous mobile robots and machine learning. Its closed-loop, direct-to-root watering and nutrient system is published by the company as using 92% less water, 55% less fertilizer and 94% less land than conventional field agriculture, while pricing to compete with field-grown product. Hippo Harvest sells packaged salad greens (spring mix, spinach, 50/50 blend, butter lettuce) into grocery retail rather than selling software: the robotics, computer vision and growing-control stack is internal operating infrastructure, not a product. It raised a $21M Series B led by Standard Investments in February 2024 and a $30M Series C led by Cox Farms in July 2026, and is permitting a 30-acre facility in Hollister, California. No public API, developer portal, SDK or machine-readable contract of any kind was found on any host the company controls.
 
-Profiled 2026-08-22: **no public API, developer portal, SDK or machine-readable contract** was found on any host the company controls. See `x-coverage` in `apis.yml` and `well-known/hippo-harvest-well-known.yml` for the probed URLs and their statuses.
+**Areas:** Company · Agriculture · Controlled Environment Agriculture · Robotics · Food and Beverage · Sustainability · Consumer Packaged Goods
 
-- https://www.hippoharvest.com/
-- https://github.com/Hippo-Harvest
+## Hippo Harvest on APIs.io
+
+Everything profiled for Hippo Harvest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hippo-harvest/](https://apis.io/providers/hippo-harvest/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hippo Harvest Domain Security](https://apis.io/security/hippo-harvest/hippo-harvest-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hippoharvest.com/)
+- [Support](https://www.hippoharvest.com/contact)
+- [Terms of service](https://www.hippoharvest.com/terms-of-service)
+- [Privacy policy](https://www.hippoharvest.com/privacy-policy)
+- [GitHub](https://github.com/Hippo-Harvest)
+
+## API Evangelist rating
+
+**Kin Score 10.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hippo-harvest/](https://apis.io/providers/hippo-harvest/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hippo Harvest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hippo-harvest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
